@@ -2,12 +2,12 @@ package tests
 
 import (
 	"encoding/json"
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/stack1ng/tls-client/profiles"
 	"io"
 	"testing"
 
 	http "github.com/bogdanfinn/fhttp"
-	tls_client "github.com/bogdanfinn/tls-client"
+	tls_client "github.com/stack1ng/tls-client"
 	"github.com/stretchr/testify/assert"
 )
 

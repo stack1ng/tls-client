@@ -13,8 +13,8 @@ import (
 	"unsafe"
 
 	http "github.com/bogdanfinn/fhttp"
-	tls_client_cffi_src "github.com/bogdanfinn/tls-client/cffi_src"
 	"github.com/google/uuid"
+	tls_client_cffi_src "github.com/stack1ng/tls-client/cffi_src"
 )
 
 var (
