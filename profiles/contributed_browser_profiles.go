@@ -6,7 +6,7 @@ import (
 )
 
 var Firefox_123 = ClientProfile{
-	clientHelloId: tls.ClientHelloID{
+	ClientHelloId: tls.ClientHelloID{
 		Client:               "Firefox",
 		RandomExtensionOrder: false,
 		Version:              "123",
@@ -148,7 +148,7 @@ var Firefox_123 = ClientProfile{
 }
 
 var Firefox_120 = ClientProfile{
-	clientHelloId: tls.ClientHelloID{
+	ClientHelloId: tls.ClientHelloID{
 		Client:               "Firefox",
 		RandomExtensionOrder: false,
 		Version:              "120",

@@ -6,7 +6,7 @@ import (
 )
 
 var Chrome_117 = ClientProfile{
-	clientHelloId: tls.ClientHelloID{
+	ClientHelloId: tls.ClientHelloID{
 		Client:               "Chrome",
 		RandomExtensionOrder: false,
 		Version:              "117",
@@ -106,7 +106,7 @@ var Chrome_117 = ClientProfile{
 }
 
 var Chrome_124 = ClientProfile{
-	clientHelloId: tls.ClientHelloID{
+	ClientHelloId: tls.ClientHelloID{
 		Client:               "Chrome",
 		RandomExtensionOrder: false,
 		Version:              "124",
@@ -208,7 +208,7 @@ var Chrome_124 = ClientProfile{
 }
 
 var Chrome_120 = ClientProfile{
-	clientHelloId: tls.ClientHelloID{
+	ClientHelloId: tls.ClientHelloID{
 		Client:               "Chrome",
 		RandomExtensionOrder: false,
 		Version:              "120",
@@ -308,7 +308,7 @@ var Chrome_120 = ClientProfile{
 }
 
 var Chrome_112 = ClientProfile{
-	clientHelloId: tls.HelloChrome_112,
+	ClientHelloId: tls.HelloChrome_112,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -333,7 +333,7 @@ var Chrome_112 = ClientProfile{
 }
 
 var Chrome_116_PSK = ClientProfile{
-	clientHelloId: tls.HelloChrome_112_PSK,
+	ClientHelloId: tls.HelloChrome_112_PSK,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -358,7 +358,7 @@ var Chrome_116_PSK = ClientProfile{
 }
 
 var Chrome_116_PSK_PQ = ClientProfile{
-	clientHelloId: tls.HelloChrome_115_PQ_PSK,
+	ClientHelloId: tls.HelloChrome_115_PQ_PSK,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -383,7 +383,7 @@ var Chrome_116_PSK_PQ = ClientProfile{
 }
 
 var Chrome_111 = ClientProfile{
-	clientHelloId: tls.HelloChrome_111,
+	ClientHelloId: tls.HelloChrome_111,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -408,7 +408,7 @@ var Chrome_111 = ClientProfile{
 }
 
 var Chrome_110 = ClientProfile{
-	clientHelloId: tls.HelloChrome_110,
+	ClientHelloId: tls.HelloChrome_110,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -433,7 +433,7 @@ var Chrome_110 = ClientProfile{
 }
 
 var Chrome_109 = ClientProfile{
-	clientHelloId: tls.HelloChrome_109,
+	ClientHelloId: tls.HelloChrome_109,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -458,7 +458,7 @@ var Chrome_109 = ClientProfile{
 }
 
 var Chrome_108 = ClientProfile{
-	clientHelloId: tls.HelloChrome_108,
+	ClientHelloId: tls.HelloChrome_108,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -483,7 +483,7 @@ var Chrome_108 = ClientProfile{
 }
 
 var Chrome_107 = ClientProfile{
-	clientHelloId: tls.HelloChrome_107,
+	ClientHelloId: tls.HelloChrome_107,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -508,7 +508,7 @@ var Chrome_107 = ClientProfile{
 }
 
 var Chrome_106 = ClientProfile{
-	clientHelloId: tls.HelloChrome_106,
+	ClientHelloId: tls.HelloChrome_106,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingEnablePush:           0,
@@ -533,7 +533,7 @@ var Chrome_106 = ClientProfile{
 }
 
 var Chrome_105 = ClientProfile{
-	clientHelloId: tls.HelloChrome_105,
+	ClientHelloId: tls.HelloChrome_105,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingMaxConcurrentStreams: 1000,
@@ -556,7 +556,7 @@ var Chrome_105 = ClientProfile{
 }
 
 var Chrome_104 = ClientProfile{
-	clientHelloId: tls.HelloChrome_104,
+	ClientHelloId: tls.HelloChrome_104,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingMaxConcurrentStreams: 1000,
@@ -579,7 +579,7 @@ var Chrome_104 = ClientProfile{
 }
 
 var Chrome_103 = ClientProfile{
-	clientHelloId: tls.HelloChrome_103,
+	ClientHelloId: tls.HelloChrome_103,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingMaxConcurrentStreams: 1000,
@@ -602,7 +602,7 @@ var Chrome_103 = ClientProfile{
 }
 
 var Safari_15_6_1 = ClientProfile{
-	clientHelloId: tls.HelloSafari_15_6_1,
+	ClientHelloId: tls.HelloSafari_15_6_1,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingInitialWindowSize:    4194304,
 		http2.SettingMaxConcurrentStreams: 100,
@@ -621,7 +621,7 @@ var Safari_15_6_1 = ClientProfile{
 }
 
 var Safari_16_0 = ClientProfile{
-	clientHelloId: tls.HelloSafari_16_0,
+	ClientHelloId: tls.HelloSafari_16_0,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingInitialWindowSize:    4194304,
 		http2.SettingMaxConcurrentStreams: 100,
@@ -640,7 +640,7 @@ var Safari_16_0 = ClientProfile{
 }
 
 var Safari_Ipad_15_6 = ClientProfile{
-	clientHelloId: tls.HelloIPad_15_6,
+	ClientHelloId: tls.HelloIPad_15_6,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingInitialWindowSize:    2097152,
 		http2.SettingMaxConcurrentStreams: 100,
@@ -659,7 +659,7 @@ var Safari_Ipad_15_6 = ClientProfile{
 }
 
 var Safari_IOS_17_0 = ClientProfile{
-	clientHelloId: tls.HelloIOS_16_0,
+	ClientHelloId: tls.HelloIOS_16_0,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingEnablePush:           0,
 		http2.SettingInitialWindowSize:    2097152,
@@ -680,7 +680,7 @@ var Safari_IOS_17_0 = ClientProfile{
 }
 
 var Safari_IOS_16_0 = ClientProfile{
-	clientHelloId: tls.HelloIOS_16_0,
+	ClientHelloId: tls.HelloIOS_16_0,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingInitialWindowSize:    2097152,
 		http2.SettingMaxConcurrentStreams: 100,
@@ -699,7 +699,7 @@ var Safari_IOS_16_0 = ClientProfile{
 }
 
 var Safari_IOS_15_5 = ClientProfile{
-	clientHelloId: tls.HelloIOS_15_5,
+	ClientHelloId: tls.HelloIOS_15_5,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingInitialWindowSize:    2097152,
 		http2.SettingMaxConcurrentStreams: 100,
@@ -718,7 +718,7 @@ var Safari_IOS_15_5 = ClientProfile{
 }
 
 var Safari_IOS_15_6 = ClientProfile{
-	clientHelloId: tls.HelloIOS_15_6,
+	ClientHelloId: tls.HelloIOS_15_6,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingInitialWindowSize:    2097152,
 		http2.SettingMaxConcurrentStreams: 100,
@@ -737,7 +737,7 @@ var Safari_IOS_15_6 = ClientProfile{
 }
 
 var Firefox_117 = ClientProfile{
-	clientHelloId: tls.ClientHelloID{
+	ClientHelloId: tls.ClientHelloID{
 		Client:               "Firefox",
 		RandomExtensionOrder: false,
 		Version:              "117",
@@ -879,7 +879,7 @@ var Firefox_117 = ClientProfile{
 }
 
 var Firefox_110 = ClientProfile{
-	clientHelloId: tls.HelloFirefox_110,
+	ClientHelloId: tls.HelloFirefox_110,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:   65536,
 		http2.SettingInitialWindowSize: 131072,
@@ -937,7 +937,7 @@ var Firefox_110 = ClientProfile{
 }
 
 var Firefox_108 = ClientProfile{
-	clientHelloId: tls.HelloFirefox_108,
+	ClientHelloId: tls.HelloFirefox_108,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:   65536,
 		http2.SettingInitialWindowSize: 131072,
@@ -995,7 +995,7 @@ var Firefox_108 = ClientProfile{
 }
 
 var Firefox_106 = ClientProfile{
-	clientHelloId: tls.HelloFirefox_106,
+	ClientHelloId: tls.HelloFirefox_106,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:   65536,
 		http2.SettingInitialWindowSize: 131072,
@@ -1053,7 +1053,7 @@ var Firefox_106 = ClientProfile{
 }
 
 var Firefox_105 = ClientProfile{
-	clientHelloId: tls.HelloFirefox_105,
+	ClientHelloId: tls.HelloFirefox_105,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:   65536,
 		http2.SettingInitialWindowSize: 131072,
@@ -1111,7 +1111,7 @@ var Firefox_105 = ClientProfile{
 }
 
 var Firefox_104 = ClientProfile{
-	clientHelloId: tls.HelloFirefox_104,
+	ClientHelloId: tls.HelloFirefox_104,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:   65536,
 		http2.SettingInitialWindowSize: 131072,
@@ -1169,7 +1169,7 @@ var Firefox_104 = ClientProfile{
 }
 
 var Firefox_102 = ClientProfile{
-	clientHelloId: tls.HelloFirefox_102,
+	ClientHelloId: tls.HelloFirefox_102,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:   65536,
 		http2.SettingInitialWindowSize: 131072,
@@ -1227,7 +1227,7 @@ var Firefox_102 = ClientProfile{
 }
 
 var Opera_90 = ClientProfile{
-	clientHelloId: tls.HelloOpera_90,
+	ClientHelloId: tls.HelloOpera_90,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingMaxConcurrentStreams: 1000,
@@ -1250,7 +1250,7 @@ var Opera_90 = ClientProfile{
 }
 
 var Opera_91 = ClientProfile{
-	clientHelloId: tls.HelloOpera_91,
+	ClientHelloId: tls.HelloOpera_91,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingMaxConcurrentStreams: 1000,
@@ -1273,7 +1273,7 @@ var Opera_91 = ClientProfile{
 }
 
 var Opera_89 = ClientProfile{
-	clientHelloId: tls.HelloOpera_89,
+	ClientHelloId: tls.HelloOpera_89,
 	settings: map[http2.SettingID]uint32{
 		http2.SettingHeaderTableSize:      65536,
 		http2.SettingMaxConcurrentStreams: 1000,
